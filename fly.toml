@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for my-blog-quiet-night-1792 on 2025-07-05T12:19:43+05:30
+# fly.toml app configuration file generated for my-blog-old-river-2173 on 2025-07-05T16:11:52+05:30
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'my-blog-quiet-night-1792'
+app = 'my-blog-old-river-2173'
 primary_region = 'bom'
 kill_signal = 'SIGTERM'
 
@@ -13,7 +13,7 @@ kill_signal = 'SIGTERM'
   release_command = '/app/bin/migrate'
 
 [env]
-  PHX_HOST = 'my-blog-quiet-night-1792.fly.dev'
+  PHX_HOST = 'my-blog-old-river-2173.fly.dev'
   PORT = '8080'
 
 [http_service]
